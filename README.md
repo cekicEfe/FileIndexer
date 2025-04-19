@@ -1,4 +1,4 @@
-### FileIndexer
+# FileIndexer
 Basic FileIndexer in both c++ and haskell
 
 ## What is This ?!
@@ -9,7 +9,7 @@ returns most and least occured 10 words and the file index that was found in
 **Only** works on files that has number for name (file extension must be .txt)
 File names should be consecutive
 
-# Example:
+### Example:
 > ./haskellImp 5
 this will search and index files:
 > 1.txt
