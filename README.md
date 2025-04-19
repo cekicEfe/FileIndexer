@@ -19,3 +19,22 @@ this will search and index files:
 > 5.txt
 and will throw error if for example 3.txt was not found
 I was lazy to pass them arguments :(
+
+## How to build haskellImp
+To build Haskell version :
+### If you are using nix
+Just use this
+'''
+cd haskellImp
+nix-shell
+''' 
+This will put the program in temporary shell
+### If you dont have nix
+You must download cabal and ghc for this 
+'''
+cd haskellImp
+cabal build
+'''
+and your program should be built
+
+## I haven't finished cpp version yet :( 
