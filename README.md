@@ -24,17 +24,21 @@ I was lazy to pass them arguments :(
 To build Haskell version :
 ### If you are using nix
 Just use this
-'''
+
+```
 cd haskellImp
 nix-shell
-''' 
+```
+ 
 This will put the program in temporary shell
 ### If you dont have nix
 You must download cabal and ghc for this 
-'''
+
+```
 cd haskellImp
 cabal build
-'''
+```
+
 and your program should be built
 
 ## I haven't finished cpp version yet :( 
