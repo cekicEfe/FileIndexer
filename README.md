@@ -1,5 +1,5 @@
 # FileIndexer
-Basic FileIndexer in both c++ and haskell
+Basic FileIndexer in haskell
 
 ## What is This ?!
 This is a basic file indexer,
@@ -18,9 +18,9 @@ this will search and index files:
 > 4.txt
 > 5.txt
 and will throw error if for example 3.txt was not found
-I was lazy to pass them arguments :(
 
-## How to build haskellImp
+
+## How to build
 To build Haskell version :
 ### If you are using nix
 Just use this
@@ -40,5 +40,3 @@ cabal build
 ```
 
 and your program should be built
-
-## I haven't finished cpp version yet :( 
